@@ -1,0 +1,159 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #B0E5F5;
+	font-family: sans-serif;
+}
+
+/*Aplica un estilo a la header del archivo*/
+header{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	top: 0px;
+	background-color: #3498DB;
+	z-index: 1;
+}
+.ancho{
+	width: 80%;
+	height:70px;
+	margin: auto;/*para que aparezaca centrado respecto al heaeder*/
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	float:left; /*para moverlo respecto a la clase ancho*/
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.logo p a{
+	color:#FFF;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: monospace;
+}
+#logo-menu{
+
+	width: 15%;
+	float: left;
+	padding-bottom: 5px;
+}
+nav{
+	width: 70%;
+	height:70px;
+	float: left;
+	text-align: right; /*para mover el menu a la derecha**/
+	padding-top: 24px;
+	box-sizing: border-box;/*para forzarle que ocupe la medida que nosotros prestablecimos*/
+}
+nav ul li{
+	display: inline;/*para que la parde de la lista salga en linea*/
+}
+nav ul li a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	padding-left: 15px;/*agregar una seperacion de las letras del menu*/
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: monospace;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	color:#444;
+}
+/*Regla que le da posicion al contendor principal*/
+.principal{
+	margin: 0px auto;
+	width: 90%;
+	background-color: white;
+	margin-top: 6%;
+	margin-bottom: 3%;
+	padding: 10px;
+}
+
+/*Aplica estilo para el footer de la pagina*/
+footer{
+	width: 100%;
+	height: 135px;
+	background-color: #3498DB;
+	padding-top: 20px;
+	margin-top: 1%; 
+	text-align: center;
+}
+
+footer p{
+	color: white;
+	margin: 0;
+	padding-top: 10px;
+}
+#contacto{
+	margin:0 auto;
+	padding: 10px;
+}
+#contacto td{
+	padding-left: 15px;
+}
+
+section{
+	margin: 0 auto;
+	width: 90%;
+
+}
+
+section article{
+	font-size: 0.9rem;
+	height: 340px;
+	width: 32.33%;
+}
+
+section article img{
+	display: block;
+	height: 190px;
+	width: 180px;
+	margin: 5px auto;
+}
+
+
+section article{
+	float: left;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+section{
+	overflow: hidden;
+}
+
+section article {
+	margin: 0.5%;
+}
+
+section article{
+	padding: 1%;
+	box-sizing: border-box;
+}
+
+section article h3{
+	text-align: center;
+}
+
+section article p{
+	text-align: center;
+}
+
+
+section{
+	position: relative;
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+	background-color: #5DADE2;
+	display: block;
+}
